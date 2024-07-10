@@ -15,8 +15,8 @@ function Header() {
   };
 
   return (
-    <div className="bg-gray-100 p-4  flex items-center justify-between">
-      <h1 className="text-3xl">React + ts + Firebase MemoApp</h1>
+    <div className="bg-gray-100 p-4  flex flex-col sm:flex-row items-center justify-between ">
+      <h1 className="text-xl sm:text-3xl">React + ts + Firebase MemoApp</h1>
       {user ? (
         <div className="flex items-center">
           <img
