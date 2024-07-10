@@ -29,8 +29,8 @@ function MemoList() {
   const userId = auth.currentUser?.uid;
 
   useEffect(() => {
-    console.log("use effect");
-    console.log(userId);
+    // console.log("use effect");
+    // console.log(userId);
 
     const getMemoData = async (userId: string | undefined) => {
       const memoData = collection(db, `users/${userId}/memos`);
