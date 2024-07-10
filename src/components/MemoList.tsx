@@ -65,9 +65,9 @@ function MemoList() {
       {memos.map((memo, index) => (
         <div key={index} className="bg-blue-100 mx-4 my-2 p-4 rounded">
           <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <h2 className="mr-3 font-bold text-xl">{memo.title}</h2>
+            <div className="">
               <p>{memo.createdAt.toLocaleDateString()}</p>
+              <h2 className="mr-3 font-bold text-xl">{memo.title}</h2>
             </div>
             <button
               className="border p-2 bg-red-600 hover:bg-red-700 rounded mt-1 text-white"
